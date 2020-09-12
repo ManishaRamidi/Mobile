@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="246779" started-at="2020-09-11T11:08:27Z" finished-at="2020-09-11T11:12:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="246779" started-at="2020-09-11T11:08:27Z" finished-at="2020-09-11T11:12:34Z">
+      <class name="Practice.Appium_Framework.KA_TC03">
+        <test-method status="PASS" signature="playvideo()[pri:0, instance:Practice.Appium_Framework.KA_TC03@520a3426]" name="playvideo" duration-ms="61861" started-at="2020-09-11T16:41:13Z" finished-at="2020-09-11T16:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playvideo -->
+      </class> <!-- Practice.Appium_Framework.KA_TC03 -->
+      <class name="Practice.Appium_Framework.KA_TC02">
+        <test-method status="PASS" signature="SelectCourse()[pri:0, instance:Practice.Appium_Framework.KA_TC02@6536e911]" name="SelectCourse" duration-ms="54248" started-at="2020-09-11T16:40:19Z" finished-at="2020-09-11T16:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCourse -->
+      </class> <!-- Practice.Appium_Framework.KA_TC02 -->
+      <class name="Practice.Appium_Framework.KA_TC01">
+        <test-method status="PASS" signature="Cap()[pri:0, instance:Practice.Appium_Framework.KA_TC01@5f9d02cb]" name="Cap" is-config="true" duration-ms="41736" started-at="2020-09-11T16:38:27Z" finished-at="2020-09-11T16:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cap -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:Practice.Appium_Framework.KA_TC01@5f9d02cb]" name="openApp" duration-ms="26335" started-at="2020-09-11T16:39:09Z" finished-at="2020-09-11T16:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="signIn()[pri:0, instance:Practice.Appium_Framework.KA_TC01@5f9d02cb]" name="signIn" duration-ms="34924" started-at="2020-09-11T16:39:35Z" depends-on-methods="Practice.Appium_Framework.KA_TC01.openApp" finished-at="2020-09-11T16:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="assertName()[pri:0, instance:Practice.Appium_Framework.KA_TC01@5f9d02cb]" name="assertName" duration-ms="8839" started-at="2020-09-11T16:40:10Z" depends-on-methods="Practice.Appium_Framework.KA_TC01.signIn" finished-at="2020-09-11T16:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertName -->
+      </class> <!-- Practice.Appium_Framework.KA_TC01 -->
+      <class name="Practice.Appium_Framework.KA_TC04">
+        <test-method status="PASS" signature="signOut()[pri:0, instance:Practice.Appium_Framework.KA_TC04@18eed359]" name="signOut" duration-ms="18785" started-at="2020-09-11T16:42:15Z" finished-at="2020-09-11T16:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+      </class> <!-- Practice.Appium_Framework.KA_TC04 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

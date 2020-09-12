@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="resource.ExtentReporterNG" />
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="Practice.Appium_Framework.KA_TC01"/>
+      <class name="Practice.Appium_Framework.KA_TC02"/>
+      <class name="Practice.Appium_Framework.KA_TC03"/> 
+      <class name="Practice.Appium_Framework.KA_TC04"/>     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
